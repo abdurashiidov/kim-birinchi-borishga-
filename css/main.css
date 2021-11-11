@@ -1,0 +1,112 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ol, ul, li{
+    list-style: none;
+}
+
+.contianer{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+body{
+    /* background: linear-gradient( 145deg,rgb(7, 240, 7), #5d04d1); */
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#input{
+    padding: 15px;
+    width: 20%;
+    border: none;
+    border-bottom: 3px solid #fff;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#btn{
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: slategrey;
+    transition: .5s;
+    border-radius: 50px;
+}
+
+#btn:focus{
+    color: darkgray;
+    transform: scale(1.1);
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 70px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+}
+
+#foot, #bicycle, #car, #plane, p{
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text{
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
